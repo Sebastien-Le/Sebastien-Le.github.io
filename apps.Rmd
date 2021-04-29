@@ -1,0 +1,5 @@
+# Ten things you need to know about me
+
+1. I’m a statistician by training, and I’ve been working on sensory and consumer data since 2000.
+
+2. I’m one of the co-authors of the FactoMineR and SensoMineR packages. Both packages are worldwide used. The first one is dedicated to the exploratory analysis of multivariate data, the second one is dedicated to the analysis of sensory data.
