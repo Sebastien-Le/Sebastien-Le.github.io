@@ -234,10 +234,10 @@ microbiology, 9, 1787.
 -   Lê, S. & Worch T. (2014). Analyzing Sensory Data with R. CRC Press.
 
 -   Husson, F., Lê, S. & Pagès, J. (2016). Analyse de données avec R.
-    2<sup>*e*</sup> Edition. PUR.
+    2<sup>e</sup> Edition. PUR.
 
 -   Husson, F., Lê, S. & Pagès, J. (2017). Exploratory Multivariate
-    Analysis by Example Using R. 2<sup>*nd*</sup> Edition. CRC
+    Analysis by Example Using R. 2<sup>nd</sup> Edition. CRC
     Press.  
 
 # Conferences
