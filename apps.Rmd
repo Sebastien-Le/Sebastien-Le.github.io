@@ -1,3 +1,12 @@
+---
+title: "Development"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+--- 
+
+
 # The FactoMineR package
 
 # The SensoMineR package
