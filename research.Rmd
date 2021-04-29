@@ -1,0 +1,245 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float: true
+--- 
+
+# My research topic
+
+My main research topic is exploratory multivariate analysis, especially multiway data analysis. During my Ph.D. I've developed two multivariate techniques:
+
+_ Hierarchical Multiple Factor Analysis
+
+_ Dual Multiple Factor Analysis
+
+I have also introduced some new validation techniques adapted to sensory data and exploratory multivariate techniques. I'm a specialist in sensory/consumer data but I also play with genomic data. <br/><br/>
+
+I had the pleasure to co-supervise the following Ph.D. students:
+
+_ Marine Cadoret
+
+_ Marie Verbanck
+
+_ Thierry Worch
+
+_ Nguyen Ba Thanh
+
+_ Tâm Minh Lê
+
+_ Franck Paboeuf
+
+_ Margot Brard <br/><br/>
+
+I'm actually co-supervising: 
+
+_ Alexiane Luc
+
+_ Muriel Noël
+
+# Articles
+
+1. Husson, F., Le Dien, S., Pagès, J. (2001). Which value can be granted to
+sensory profiles given by consumers? Methodology and results. *Food
+Quality and Preference*, (5-7), 291-296
+
+1. Le Dien, S., Pagès, J. (2003). Analyse Factorielle Multiple
+Hiérarchique. *Revue de Statistique Appliquée*, LI (2), 47-73
+
+1. Le Dien, S., Pagès, J. (2003). Hierarchical Multiple Factor Analysis :
+application to the comparison of sensory profiles. *Food Quality and
+Preference*, (5-6), 397-403
+
+1. Husson, F., Le Dien, S., Pagès, J. (2005). Confidence ellipse for the
+sensory profiles obtained by Principal Component Analysis. *Food Quality
+and Preference*, (3), 245-250
+
+1. Pagès, J., Lê, S. & Husson, F. (2006). Une approche statistique de la
+performance en analyse sensorielle descriptive Sciences des aliments. 26
+(5). pp. 116-169.
+
+1. Husson, F. & Lê, S. (2006). SensoMineR : un package pour le traitement
+de données sensorielles avec R Sciences des aliments. 26. pp. 355-356.
+
+1. Lê, S., Husson, F., Pagès, J. (2006). Another look at sensory data: How
+to “have your salmon and eat it, too!”. *Food Quality and Preference*,
+(7-8), 3-5.
+
+1. Lê, S., Ledauphin, S.(2006). “You like tomato, I like tomato:
+Segmentation of consumers with missing values”. *Food Quality and
+Preference*, (3-4), 228-233.
+
+1. Lê, S., Husson, F. & Pagès, J. (2006). Confidence ellipses applied to
+the comparison of sensory profiles. *Journal of Sensory Studies*, ,
+241-248.
+
+1. Pagès, J., Bertrand, C., Ali, R., Husson, F. & Lê, S. (2007). Sensory
+analysis comparison of eight biscuits by French and Pakistani panels.
+*Journal of Sensory Studies*, (6), 665-686.
+
+1. Husson, F., Lê, S. & Pagès, J. (2007). Variability of the representation
+of the variables resulting from PCA in the case of a conventional
+sensory profile. *Food Quality and Preference*, (7), 933-937.
+
+1. Lê, S., Josse, J., Husson, F. (2008). FactoMineR: an R package for
+multivariate analysis. *Journal of Statistical Software*, (1), 1-18.
+
+1. Lê, S., Pagès, J. & Husson, F. (2008). Methodology for the comparison of
+sensory profiles provided by several panels: application to a
+cross-cultural study. *Food Quality and Preference*, (2), 179-184.
+
+1. Lê, S., Husson, F. (2008). SensoMineR: a package for sensory data
+analysis. *Journal of Sensory Studies*, (1), 14-25.
+
+1. Cadoret, M., Lê, S. & Pagès, J. (2009). A Factorial Approach for Sorting
+Task data (FAST). *Food Quality and Preference*, (6), 410-417.
+
+1. de Tayrac, M., Lê, S., Aubry, M., Mosser, J., Husson, F. (2009).
+Simultaneous analysis of distinct Omics data sets with integration of
+biological knowledge: Multiple Factor Analysis approach. *BMC Genomics*,
+:32.
+
+1. Lê, S. & Pagès, J. (2009). DMFA: Dual Multiple Factor Analysis.
+*Communication in Statistics - Theory and Methods*.
+
+1. Worch, T., Lê, S. & Punter, P. (2010). How reliable are the consumers?
+Comparison of sensory profiles from consumers and experts. *Food Quality
+and Preference*, (3), 309-318.
+
+1. Ledauphin-Menard, S., Lê, S. (2010). Typologie des consommateurs et
+mesure de loyauté-fidélité. *La Revue MODULAD*, numéro 42.
+
+1. Pagès, J., Cadoret, M. & Lê, S. (2010). The Sorted Napping: a new holistic
+approach in sensory evaluation. *Journal of Sensory Studies*. (5),
+637-658.
+
+1. Yoon, E. K., Hong, J. H., Lê, S. & Kim, K. O. (2011). Sensory
+characteristics and consumer acceptability of red ginseng extracts
+produced with different processing methods. *Journal of food science*,
+(5), S270-S279.
+
+1. Cadoret M., Lê S. & Pagès J. (2011). Multidimensional scaling versus
+multiple correspondence analysis when analyzing categorization data.
+Studies in Classification, Data Analysis, and Knowledge Organization
+(post-proceedings of first joint meeting of the SFC and the Cladag).
+
+1. Cadoret M., Lê S. & Pagès J. (2011). Statistical analysis of
+hierarchical sorting data. *Journal of Sensory Studies*. (2), 96-105.
+
+1. Bécue-Bertaut M., Lê S. (2011). Analysis of multilingual labeled sorting
+tasks: application to a cross-cultural study in wine industry. *Journal
+of Sensory Studies*. (5), 299-310.
+
+1. Worch, T., Lê, S. & Punter, P. (2012). Assessment of the consistency of
+ideal profiles according to non-ideal data for IPM. *Food Quality and
+Preference*, (1), 99-110.
+
+1. Worch, T., Lê, S. & Punter, P. (2012). Extension of the consistency of
+the data obtained with the Ideal Profile Method: Would the ideal
+products be more liked than the tested products? *Food Quality and
+Preference*, (1), 74-80.
+
+1. Worch, T., Lê, S. & Punter, P. (2012). Construction of an Ideal Map
+(IdMap) based on the ideal profiles obtained directly from consumers.
+*Food Quality and Preference*, (1), 93-104.
+
+1. Worch, T., Lê, S. & Punter, P. (2012). Ideal Profile Method (IPM): the
+ins and outs. *Food Quality and Preference*.
+
+1. Verbanck, M., Lê, S. & Pagès, J. (2013). A new unsupervised gene
+clustering algorithm based on the integration of biological knowledge
+into expression data. *BMC Bioinformatics*, (1), 42.
+
+1. Worch, T., Crine, A., Gruel, A. & Lê, S. (2014). Analysis and validation
+of the Ideal Profile Method: Application to a skin cream study. *Food
+Quality and Preference*, , 132-144.
+
+1. Hong, J. H., Park, H. S., Chung, S. J., Chung, L., Cha, S. M., Lê, S. &
+Kim, K. O. (2014). Effect of Familiarity on a Cross-Cultural Acceptance
+of a Sweet Ethnic Food: A Case Study with Korean Traditional Cookie
+(Yackwa). *Journal of Sensory Studies*, (2), 110-125.
+
+1. Park, H. S., Lê, S., Hong, J. H. & Kim, K. O. (2014). Sensory Perception
+of Yackwa (Korean Traditional Fried Cookie) by Consumer Groups of
+Different Age Using the Sorted Napping Procedure. *Journal of Sensory
+Studies*, (6), 425-434.
+
+1. Lê, M.T., Lê, S. & Nguyen, H.D. (2014). Assessing consumer-perceived
+food quality using conjoint analysis. *Journal of Science and Technology
+Development*, , 17- 27.
+
+1. Lacou, L., Lê, S., Pezennec, S. & Gagnaire, V. (2015). An in silico
+approach to highlight relationships between a techno-functional property
+of a dairy matrix and a peptide profile. *Colloids and Surfaces A:
+Physicochemical and Engineering Aspects*, , 44-54.
+
+1. Tavares, G. M., Croguennec, T., Lê, S., Lerideau, O., Hamon, P.,
+Carvalho, A. F. & Bouhallab, S. (2015). Binding of folic acid induces
+specific self-aggregation of lactoferrin: thermodynamic
+characterization. *Langmuir*, (45), 12481-12488.
+
+1. Lê, T. M., Husson, F. & Lê, S. (2016). Digit-tracking: Interpreting the
+evolution over time of sensory dimensions of an individual product space
+issued from Napping and sorted Napping. *Food Quality and Preference*, ,
+73-78.
+
+1. Brard, M., & Lê, S. (2016). The Ideal Pair Method, an Alternative to the
+Ideal Profile Method Based on Pairwise Comparisons: Application to a
+Panel of Children. *Journal of Sensory Studies*, (4), 306-313.
+
+1. Lê, T.M., Brard, M. & Lê, S. (2017). Holos: a collaborative environment
+for similarity-based holistic approaches. *Behavior Research Methods,
+1-8.*
+
+1. Brard, M., & Lê, S. (2018). Adaptation of the Q-methodology for the
+characterization of a complex concept through a set of products: from
+the collection of the data to their analysis. *Food Quality and
+Preference*.
+
+1. Garnier, L., Mounier, J., Lê, S., et al. (2018). Development of
+antifungal ingredients for dairy products: From in vitro screening to
+pilot scale application. Food Microbiology.
+
+1. Leyva Salas, M., Thierry, A., Lemaître, M., Garric, G., Harel-Oger, M.,
+Chatel, M., Lê, S.,... & Coton, E. (2018). Antifungal Activity of Lactic
+Acid Bacteria Combinations in Dairy Mimicking Models and Their Potential
+as Bioprotective Cultures in Pilot Scale Applications. Frontiers in
+microbiology, 9, 1787.
+
+1. Brard, M., & Lê, S. (2019). The Sequential Agglomerative Sorting task, a new methodology for the sensory characterization of large sets of products. Journal of Sensory Studies, 34(5), e12527.
+
+1. von Gastrow, L., Madec, M. N., Chuat, V., Lubac, S., Morinière, C., Lê, S., ... & Valence, F. (2020). Microbial Diversity Associated with Gwell, a Traditional French Mesophilic Fermented Milk Inoculated with a Natural Starter. Microorganisms, 8(7), 982.
+
+1. Luc, A., Lê, S., & Philippe, M. (2020). Nudging consumers for relevant data using Free JAR profiling: An application to product development. Food Quality and Preference, 79, 103751.
+
+# Books
+
+#### Chapters
+
+-   Lê, S. (2014). Introduction to Multivariate Statistical Techniques
+    for Sensory Characterization. In Novel Techniques in Sensory
+    Characterization and Consumer Profiling, Edited by P. Varela and G.
+    Ares. CRC Press.
+
+-   Lê, S., Lê, M.T., & Cadoret, M. (2014). Napping and sorted napping
+    as a sensory profiling technique. In J. Delarue, B. Lawlor, & M.
+    Rogeaux (Eds.), Rapid sensory profiling techniques and related
+    methods. United Kingdom: Woodhead Publishing.
+
+-   Lê, S. (2017). Applied Multivariate Statistics. In Sensory
+    Evaluation of Sound, Edited by N. Zacharov. CRC Press.
+
+#### Books
+
+-   Lê, S. & Worch T. (2014). Analyzing Sensory Data with R. CRC Press.
+
+-   Husson, F., Lê, S. & Pagès, J. (2016). Analyse de données avec R.
+    2<sup>*e*</sup> Edition. PUR.
+
+-   Husson, F., Lê, S. & Pagès, J. (2017). Exploratory Multivariate
+    Analysis by Example Using R. 2<sup>*nd*</sup> Edition. CRC
+    Press.  
+
+# Conferences
+
+[Workshop on the Bradley-Terry model during the Pangborn 2019](pdf/Pangborn 2019.pdf)

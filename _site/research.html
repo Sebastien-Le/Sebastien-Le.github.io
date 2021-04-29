@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>research.utf8</title>
+
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Sébastien Lê</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="OER.html">Open Educational Resources</a>
+</li>
+<li>
+  <a href="courses.html">Courses</a>
+</li>
+<li>
+  <a href="apps.html">Apps</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="my-research-topic" class="section level1">
+<h1>My research topic</h1>
+<p>My main research topic is exploratory multivariate analysis, especially multiway data analysis. During my Ph.D. I’ve developed two multivariate techniques:</p>
+<p>_ Hierarchical Multiple Factor Analysis</p>
+<p>_ Dual Multiple Factor Analysis</p>
+<p>I have also introduced some new validation techniques adapted to sensory data and exploratory multivariate techniques. I’m a specialist in sensory/consumer data but I also play with genomic data. <br/><br/></p>
+<p>I had the pleasure to co-supervise the following Ph.D. students:</p>
+<p>_ Marine Cadoret</p>
+<p>_ Marie Verbanck</p>
+<p>_ Thierry Worch</p>
+<p>_ Nguyen Ba Thanh</p>
+<p>_ Tâm Minh Lê</p>
+<p>_ Franck Paboeuf</p>
+<p>_ Margot Brard <br/><br/></p>
+<p>I’m actually co-supervising:</p>
+<p>_ Alexiane Luc</p>
+<p>_ Muriel Noël</p>
+</div>
+<div id="articles" class="section level1">
+<h1>Articles</h1>
+<ol style="list-style-type: decimal">
+<li><p>Husson, F., Le Dien, S., Pagès, J. (2001). Which value can be granted to sensory profiles given by consumers? Methodology and results. <em>Food Quality and Preference</em>, (5-7), 291-296</p></li>
+<li><p>Le Dien, S., Pagès, J. (2003). Analyse Factorielle Multiple Hiérarchique. <em>Revue de Statistique Appliquée</em>, LI (2), 47-73</p></li>
+<li><p>Le Dien, S., Pagès, J. (2003). Hierarchical Multiple Factor Analysis : application to the comparison of sensory profiles. <em>Food Quality and Preference</em>, (5-6), 397-403</p></li>
+<li><p>Husson, F., Le Dien, S., Pagès, J. (2005). Confidence ellipse for the sensory profiles obtained by Principal Component Analysis. <em>Food Quality and Preference</em>, (3), 245-250</p></li>
+<li><p>Pagès, J., Lê, S. &amp; Husson, F. (2006). Une approche statistique de la performance en analyse sensorielle descriptive Sciences des aliments. 26 (5). pp. 116-169.</p></li>
+<li><p>Husson, F. &amp; Lê, S. (2006). SensoMineR : un package pour le traitement de données sensorielles avec R Sciences des aliments. 26. pp. 355-356.</p></li>
+<li><p>Lê, S., Husson, F., Pagès, J. (2006). Another look at sensory data: How to “have your salmon and eat it, too!”. <em>Food Quality and Preference</em>, (7-8), 3-5.</p></li>
+<li><p>Lê, S., Ledauphin, S.(2006). “You like tomato, I like tomato: Segmentation of consumers with missing values”. <em>Food Quality and Preference</em>, (3-4), 228-233.</p></li>
+<li><p>Lê, S., Husson, F. &amp; Pagès, J. (2006). Confidence ellipses applied to the comparison of sensory profiles. <em>Journal of Sensory Studies</em>, , 241-248.</p></li>
+<li><p>Pagès, J., Bertrand, C., Ali, R., Husson, F. &amp; Lê, S. (2007). Sensory analysis comparison of eight biscuits by French and Pakistani panels. <em>Journal of Sensory Studies</em>, (6), 665-686.</p></li>
+<li><p>Husson, F., Lê, S. &amp; Pagès, J. (2007). Variability of the representation of the variables resulting from PCA in the case of a conventional sensory profile. <em>Food Quality and Preference</em>, (7), 933-937.</p></li>
+<li><p>Lê, S., Josse, J., Husson, F. (2008). FactoMineR: an R package for multivariate analysis. <em>Journal of Statistical Software</em>, (1), 1-18.</p></li>
+<li><p>Lê, S., Pagès, J. &amp; Husson, F. (2008). Methodology for the comparison of sensory profiles provided by several panels: application to a cross-cultural study. <em>Food Quality and Preference</em>, (2), 179-184.</p></li>
+<li><p>Lê, S., Husson, F. (2008). SensoMineR: a package for sensory data analysis. <em>Journal of Sensory Studies</em>, (1), 14-25.</p></li>
+<li><p>Cadoret, M., Lê, S. &amp; Pagès, J. (2009). A Factorial Approach for Sorting Task data (FAST). <em>Food Quality and Preference</em>, (6), 410-417.</p></li>
+<li><p>de Tayrac, M., Lê, S., Aubry, M., Mosser, J., Husson, F. (2009). Simultaneous analysis of distinct Omics data sets with integration of biological knowledge: Multiple Factor Analysis approach. <em>BMC Genomics</em>, :32.</p></li>
+<li><p>Lê, S. &amp; Pagès, J. (2009). DMFA: Dual Multiple Factor Analysis. <em>Communication in Statistics - Theory and Methods</em>.</p></li>
+<li><p>Worch, T., Lê, S. &amp; Punter, P. (2010). How reliable are the consumers? Comparison of sensory profiles from consumers and experts. <em>Food Quality and Preference</em>, (3), 309-318.</p></li>
+<li><p>Ledauphin-Menard, S., Lê, S. (2010). Typologie des consommateurs et mesure de loyauté-fidélité. <em>La Revue MODULAD</em>, numéro 42.</p></li>
+<li><p>Pagès, J., Cadoret, M. &amp; Lê, S. (2010). The Sorted Napping: a new holistic approach in sensory evaluation. <em>Journal of Sensory Studies</em>. (5), 637-658.</p></li>
+<li><p>Yoon, E. K., Hong, J. H., Lê, S. &amp; Kim, K. O. (2011). Sensory characteristics and consumer acceptability of red ginseng extracts produced with different processing methods. <em>Journal of food science</em>, (5), S270-S279.</p></li>
+<li><p>Cadoret M., Lê S. &amp; Pagès J. (2011). Multidimensional scaling versus multiple correspondence analysis when analyzing categorization data. Studies in Classification, Data Analysis, and Knowledge Organization (post-proceedings of first joint meeting of the SFC and the Cladag).</p></li>
+<li><p>Cadoret M., Lê S. &amp; Pagès J. (2011). Statistical analysis of hierarchical sorting data. <em>Journal of Sensory Studies</em>. (2), 96-105.</p></li>
+<li><p>Bécue-Bertaut M., Lê S. (2011). Analysis of multilingual labeled sorting tasks: application to a cross-cultural study in wine industry. <em>Journal of Sensory Studies</em>. (5), 299-310.</p></li>
+<li><p>Worch, T., Lê, S. &amp; Punter, P. (2012). Assessment of the consistency of ideal profiles according to non-ideal data for IPM. <em>Food Quality and Preference</em>, (1), 99-110.</p></li>
+<li><p>Worch, T., Lê, S. &amp; Punter, P. (2012). Extension of the consistency of the data obtained with the Ideal Profile Method: Would the ideal products be more liked than the tested products? <em>Food Quality and Preference</em>, (1), 74-80.</p></li>
+<li><p>Worch, T., Lê, S. &amp; Punter, P. (2012). Construction of an Ideal Map (IdMap) based on the ideal profiles obtained directly from consumers. <em>Food Quality and Preference</em>, (1), 93-104.</p></li>
+<li><p>Worch, T., Lê, S. &amp; Punter, P. (2012). Ideal Profile Method (IPM): the ins and outs. <em>Food Quality and Preference</em>.</p></li>
+<li><p>Verbanck, M., Lê, S. &amp; Pagès, J. (2013). A new unsupervised gene clustering algorithm based on the integration of biological knowledge into expression data. <em>BMC Bioinformatics</em>, (1), 42.</p></li>
+<li><p>Worch, T., Crine, A., Gruel, A. &amp; Lê, S. (2014). Analysis and validation of the Ideal Profile Method: Application to a skin cream study. <em>Food Quality and Preference</em>, , 132-144.</p></li>
+<li><p>Hong, J. H., Park, H. S., Chung, S. J., Chung, L., Cha, S. M., Lê, S. &amp; Kim, K. O. (2014). Effect of Familiarity on a Cross-Cultural Acceptance of a Sweet Ethnic Food: A Case Study with Korean Traditional Cookie (Yackwa). <em>Journal of Sensory Studies</em>, (2), 110-125.</p></li>
+<li><p>Park, H. S., Lê, S., Hong, J. H. &amp; Kim, K. O. (2014). Sensory Perception of Yackwa (Korean Traditional Fried Cookie) by Consumer Groups of Different Age Using the Sorted Napping Procedure. <em>Journal of Sensory Studies</em>, (6), 425-434.</p></li>
+<li><p>Lê, M.T., Lê, S. &amp; Nguyen, H.D. (2014). Assessing consumer-perceived food quality using conjoint analysis. <em>Journal of Science and Technology Development</em>, , 17- 27.</p></li>
+<li><p>Lacou, L., Lê, S., Pezennec, S. &amp; Gagnaire, V. (2015). An in silico approach to highlight relationships between a techno-functional property of a dairy matrix and a peptide profile. <em>Colloids and Surfaces A: Physicochemical and Engineering Aspects</em>, , 44-54.</p></li>
+<li><p>Tavares, G. M., Croguennec, T., Lê, S., Lerideau, O., Hamon, P., Carvalho, A. F. &amp; Bouhallab, S. (2015). Binding of folic acid induces specific self-aggregation of lactoferrin: thermodynamic characterization. <em>Langmuir</em>, (45), 12481-12488.</p></li>
+<li><p>Lê, T. M., Husson, F. &amp; Lê, S. (2016). Digit-tracking: Interpreting the evolution over time of sensory dimensions of an individual product space issued from Napping and sorted Napping. <em>Food Quality and Preference</em>, , 73-78.</p></li>
+<li><p>Brard, M., &amp; Lê, S. (2016). The Ideal Pair Method, an Alternative to the Ideal Profile Method Based on Pairwise Comparisons: Application to a Panel of Children. <em>Journal of Sensory Studies</em>, (4), 306-313.</p></li>
+<li><p>Lê, T.M., Brard, M. &amp; Lê, S. (2017). Holos: a collaborative environment for similarity-based holistic approaches. <em>Behavior Research Methods, 1-8.</em></p></li>
+<li><p>Brard, M., &amp; Lê, S. (2018). Adaptation of the Q-methodology for the characterization of a complex concept through a set of products: from the collection of the data to their analysis. <em>Food Quality and Preference</em>.</p></li>
+<li><p>Garnier, L., Mounier, J., Lê, S., et al. (2018). Development of antifungal ingredients for dairy products: From in vitro screening to pilot scale application. Food Microbiology.</p></li>
+<li><p>Leyva Salas, M., Thierry, A., Lemaître, M., Garric, G., Harel-Oger, M., Chatel, M., Lê, S.,… &amp; Coton, E. (2018). Antifungal Activity of Lactic Acid Bacteria Combinations in Dairy Mimicking Models and Their Potential as Bioprotective Cultures in Pilot Scale Applications. Frontiers in microbiology, 9, 1787.</p></li>
+<li><p>Brard, M., &amp; Lê, S. (2019). The Sequential Agglomerative Sorting task, a new methodology for the sensory characterization of large sets of products. Journal of Sensory Studies, 34(5), e12527.</p></li>
+<li><p>von Gastrow, L., Madec, M. N., Chuat, V., Lubac, S., Morinière, C., Lê, S., … &amp; Valence, F. (2020). Microbial Diversity Associated with Gwell, a Traditional French Mesophilic Fermented Milk Inoculated with a Natural Starter. Microorganisms, 8(7), 982.</p></li>
+<li><p>Luc, A., Lê, S., &amp; Philippe, M. (2020). Nudging consumers for relevant data using Free JAR profiling: An application to product development. Food Quality and Preference, 79, 103751.</p></li>
+</ol>
+</div>
+<div id="books" class="section level1">
+<h1>Books</h1>
+<div id="chapters" class="section level4">
+<h4>Chapters</h4>
+<ul>
+<li><p>Lê, S. (2014). Introduction to Multivariate Statistical Techniques for Sensory Characterization. In Novel Techniques in Sensory Characterization and Consumer Profiling, Edited by P. Varela and G. Ares. CRC Press.</p></li>
+<li><p>Lê, S., Lê, M.T., &amp; Cadoret, M. (2014). Napping and sorted napping as a sensory profiling technique. In J. Delarue, B. Lawlor, &amp; M. Rogeaux (Eds.), Rapid sensory profiling techniques and related methods. United Kingdom: Woodhead Publishing.</p></li>
+<li><p>Lê, S. (2017). Applied Multivariate Statistics. In Sensory Evaluation of Sound, Edited by N. Zacharov. CRC Press.</p></li>
+</ul>
+</div>
+<div id="books-1" class="section level4">
+<h4>Books</h4>
+<ul>
+<li><p>Lê, S. &amp; Worch T. (2014). Analyzing Sensory Data with R. CRC Press.</p></li>
+<li><p>Husson, F., Lê, S. &amp; Pagès, J. (2016). Analyse de données avec R. 2<sup><em>e</em></sup> Edition. PUR.</p></li>
+<li><p>Husson, F., Lê, S. &amp; Pagès, J. (2017). Exploratory Multivariate Analysis by Example Using R. 2<sup><em>nd</em></sup> Edition. CRC Press.</p></li>
+</ul>
+</div>
+</div>
+<div id="conferences" class="section level1">
+<h1>Conferences</h1>
+<p><a href="pdf/Pangborn%202019.pdf">Workshop on the Bradley-Terry model during the Pangborn 2019</a></p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

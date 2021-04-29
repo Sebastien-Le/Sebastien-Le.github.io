@@ -1,0 +1,15 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "Sébastien Lê"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Open Educational Resources"
+      href: OER.html
+    - text: "Courses"
+      href: courses.html
+    - text: "Apps"
+      href: apps.html
