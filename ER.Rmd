@@ -1,0 +1,43 @@
+---
+title: "Educational Resources"
+output:
+  html_document:
+#    toc: true
+#    toc_float: true
+    css: front.css
+--- 
+
+As written previously, the main purpose of this website is to share open educational resources. The idea is to share my experience, more than some academic knowledge.
+
+# Open educational resources
+
+-   [A european case study on salmon](https://sebastien-le.github.io/salmon/)
+
+# Other resources
+
+### Chapters
+
+-   Lê, S. (2014). Introduction to Multivariate Statistical Techniques
+    for Sensory Characterization. In Novel Techniques in Sensory
+    Characterization and Consumer Profiling, Edited by P. Varela and G.
+    Ares. CRC Press.
+
+-   Lê, S., Lê, M.T., & Cadoret, M. (2014). Napping and sorted napping
+    as a sensory profiling technique. In J. Delarue, B. Lawlor, & M.
+    Rogeaux (Eds.), Rapid sensory profiling techniques and related
+    methods. United Kingdom: Woodhead Publishing.
+
+-   Lê, S. (2017). Applied Multivariate Statistics. In Sensory
+    Evaluation of Sound, Edited by N. Zacharov. CRC Press.
+
+### Books
+
+-   Lê, S. & Worch T. (2014). Analyzing Sensory Data with R. CRC Press.
+
+-   Husson, F., Lê, S. & Pagès, J. (2016). Analyse de données avec R.
+    2<sup>e</sup> Edition. PUR.
+
+-   Husson, F., Lê, S. & Pagès, J. (2017). Exploratory Multivariate
+    Analysis by Example Using R. 2<sup>nd</sup> Edition. CRC
+    Press.
+

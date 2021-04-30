@@ -1,0 +1,12 @@
+---
+title: "Courses"
+output:
+  html_document:
+#    toc: true
+#    toc_float: true
+    css: front.css
+--- 
+
+Here's a list of courses I'm teaching.
+
+# Survey data analysis
