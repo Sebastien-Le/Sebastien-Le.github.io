@@ -4,15 +4,22 @@ output:
   html_document:
     toc: true
     toc_float: true
+    css: front.css
 --- 
 
 
 # The FactoMineR package
 
+FactoMineR is an R package dedicated to the analysis of multivariate exploratory data. You will be able to find a lot of information about multivariate data and their analyses in the [FactoMineR](http://factominer.free.fr) website, in the [Journal of Statistical Software](https://www.jstatsoft.org/article/view/v025i01) website, on [Youtube](https://www.youtube.com/channel/UCyz4M1pwJBNfjMFaUCHCNUQ),...
+
 # The SensoMineR package
+
+SensoMineR is an R package dedicated to the analysis of sensory data. You will be able to find a lot of information in the [SensoMineR](http://sensominer.free.fr) website, on the [CRAN](https://cran.r-project.org/web/packages/SensoMineR/index.html), on [Youtube](https://www.youtube.com/channel/UCyz4M1pwJBNfjMFaUCHCNUQ),...
 
 # The QM module for jamovi
 
+"Fundamentally, Q Methodology provides a foundation for the systematic study of subjectivity, and it is this central feature which recommends it to persons interested in qualitative aspects of human behavior" (Brown, 2008, The SAGE Encyclopedia of Qualitative Research Methods ). You will be able to find a lot of information about the Q Methodology in the [Q Methodology](https://qmethod.org) website, on [Wikipedia](https://en.wikipedia.org/wiki/Q_methodology), on [Youtube](https://www.youtube.com/channel/UCZ1pQYsO-DK8eV0NIDvDjSQ),...
+
 # The MEDA module for jamovi
 
-You will be able to find a lot of information [here](https://sebastien-le.github.io/medasite/).
+MEDA is a jamovi module dedicated to the analysis of multivariate data : it is a graphical interface of FactoMineR. You will be able to find a lot of information in the [MEDA](https://sebastien-le.github.io/medasite/) website.
