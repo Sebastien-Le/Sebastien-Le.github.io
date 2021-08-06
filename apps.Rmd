@@ -26,6 +26,10 @@ Please have a look at the jamovi website. You will be able to find some more inf
 
 MEDA is a jamovi module dedicated to the analysis of multivariate data : it is a graphical interface of FactoMineR. You will be able to find a lot of information in the [MEDA](https://sebastien-le.github.io/medasite/){target="_blank"} website.
 
+# The YesSiR package
+
+The goal of the YesSiR package is to generate automatic reports based on the FactoMineR and officer packages. Reports are issued from multivariate analyses such as MCA and PCA. To use the package you have to use the .pptx file included in the package. For more information, you can go to the [YesSiR](https://sebastien-le.github.io/YesSiR/index.html){target="_blank"} website.
+
 # The MocapMineR package
 
 MocapMineR is an R package dedicated to the analysis of motion capture data. It was initially developed by Lou-Anne Guillotel and myself to analyze movements from blind Tae Kwon Do practitioners. The main idea, was to find a way to correct these practitioners automatically, based on graphical indicators. Actually, this package works for any kind of motion capture data. For more information, you can go to the [MocapMineR](https://sebastien-le.github.io/MocapMineR/index.html){target="_blank"} website.
