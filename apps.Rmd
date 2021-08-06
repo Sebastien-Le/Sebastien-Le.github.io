@@ -10,16 +10,25 @@ output:
 
 # The FactoMineR package
 
-FactoMineR is an R package dedicated to the analysis of multivariate exploratory data. You will be able to find a lot of information about multivariate data and their analyses in the [FactoMineR](http://factominer.free.fr) website, in the [Journal of Statistical Software](https://www.jstatsoft.org/article/view/v025i01) website, on [Youtube](https://www.youtube.com/channel/UCyz4M1pwJBNfjMFaUCHCNUQ),...
+FactoMineR is an R package dedicated to the analysis of multivariate exploratory data. You will be able to find a lot of information about multivariate data and their analyses in the [FactoMineR](http://factominer.free.fr){target="_blank"} website, in the [Journal of Statistical Software](https://www.jstatsoft.org/article/view/v025i01){target="_blank"} website, on [Youtube](https://www.youtube.com/channel/UCyz4M1pwJBNfjMFaUCHCNUQ){target="_blank"},...
 
 # The SensoMineR package
 
-SensoMineR is an R package dedicated to the analysis of sensory data. You will be able to find a lot of information in the [SensoMineR](http://sensominer.free.fr) website, on the [CRAN](https://cran.r-project.org/web/packages/SensoMineR/index.html), on [Youtube](https://www.youtube.com/channel/UCyz4M1pwJBNfjMFaUCHCNUQ),...
+SensoMineR is an R package dedicated to the analysis of sensory data. You will be able to find a lot of information in the [SensoMineR](http://sensominer.free.fr){target="_blank"} website, on the [CRAN](https://cran.r-project.org/web/packages/SensoMineR/index.html){target="_blank"}, on [Youtube](https://www.youtube.com/channel/UCyz4M1pwJBNfjMFaUCHCNUQ){target="_blank"},...
 
 # The QM module for jamovi
 
-"Fundamentally, Q Methodology provides a foundation for the systematic study of subjectivity, and it is this central feature which recommends it to persons interested in qualitative aspects of human behavior" (Brown, 2008, The SAGE Encyclopedia of Qualitative Research Methods ). You will be able to find a lot of information about the Q Methodology in the [Q Methodology](https://qmethod.org) website, on [Wikipedia](https://en.wikipedia.org/wiki/Q_methodology), on [Youtube](https://www.youtube.com/channel/UCZ1pQYsO-DK8eV0NIDvDjSQ),...
+"Fundamentally, Q Methodology provides a foundation for the systematic study of subjectivity, and it is this central feature which recommends it to persons interested in qualitative aspects of human behavior" (Brown, 2008, The SAGE Encyclopedia of Qualitative Research Methods ). You will be able to find a lot of information about the Q Methodology in the [Q Methodology](https://qmethod.org){target="_blank"} website, on [Wikipedia](https://en.wikipedia.org/wiki/Q_methodology){target="_blank"}, on [Youtube](https://www.youtube.com/channel/UCZ1pQYsO-DK8eV0NIDvDjSQ){target="_blank"},...
+
+Please have a look at the jamovi website. You will be able to find some more information about the jamovi library that we developed at the [following link](https://www.jamovi.org/library.html){target="_blank"}.
 
 # The MEDA module for jamovi
 
-MEDA is a jamovi module dedicated to the analysis of multivariate data : it is a graphical interface of FactoMineR. You will be able to find a lot of information in the [MEDA](https://sebastien-le.github.io/medasite/) website.
+MEDA is a jamovi module dedicated to the analysis of multivariate data : it is a graphical interface of FactoMineR. You will be able to find a lot of information in the [MEDA](https://sebastien-le.github.io/medasite/){target="_blank"} website.
+
+# The MocapMineR package
+
+MocapMineR is an R package dedicated to the analysis of motion capture data. It was initially developed by Lou-Anne Guillotel and myself to analyze movements from blind Tae Kwon Do practitioners. The main idea, was to find a way to correct these practitioners automatically, based on graphical indicators. Actually, this package works for any kind of motion capture data. 
+
+
+
