@@ -17,4 +17,6 @@ Please have a look at the [course website](https://sebastien-le.github.io/Survey
 
 # An introduction to Hierarchical Multiple Factor Analysis (HMFA)
 
-_ [Introduction to HMFA](pdf/Introduction to HMFA.pdf)
+_ Introduction to HMFA: [the slides](pdf/Introduction to HMFA.pdf)
+
+_ How to perform an HMFA: [DIY](pdf/TP_AFMH.pdf)
