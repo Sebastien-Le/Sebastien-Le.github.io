@@ -14,3 +14,7 @@ Here's a list of courses I'm teaching.
 In this module I will try to make you think about the notion of measure, the notion of profile, and the notion of typology. These notions will be tackled with quantitative and qualitative variables. Analyses will be performed using PCA, CA, and MCA, with the FactoMineR package.
 
 Please have a look at the [course website](https://sebastien-le.github.io/SurveyDataModule/).
+
+# An introduction to Hierarchical Multiple Factor Analysis (HMFA)
+
+_ [Introduction to HMFA](pdf/Introduction to HMFA.pdf)
