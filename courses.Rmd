@@ -13,49 +13,57 @@ Here's a list of courses I'm teaching.
 
 In this module I will try to make you think about the notion of measure, the notion of profile, and the notion of typology. These notions will be tackled with quantitative and qualitative variables. Analyses will be performed using PCA, CA, and MCA, with the FactoMineR package.
 
-Please have a look at the [course website](https://sebastien-le.github.io/SurveyDataModule/).
+Please have a look at the [course website](https://sebastien-le.github.io/SurveyDataModule/){target="_blank"}.
 
 # An introduction to Hierarchical Multiple Factor Analysis (HMFA)
 
 - Introduction to HMFA: [the slides](pdf/Introduction to HMFA.pdf)
 
-- How to perform an HMFA: [DIY](pdf/TP_AFMH.pdf)
+- How to perform an HMFA with a PCA program: [DIY](pdf/TP_AFMH.pdf)
 
-A list of papers you should read for a better understanding of HMFA: 
+
+The paper you should read to get initiated to HMFA (the first one about HMFA):
 
 - Le Dien, S., & Pagès, J. (2003). Hierarchical multiple factor analysis: application to the comparison of sensory profiles. Food quality and preference, 14(5-6), 397-403.
 
-- St, L. (1989). Aspects of the analysis of three-way data. Chemometrics and Intelligent laboratory systems, 7(1-2), 95-100.
+
+A list of papers in which HMFA has been applied:
 
 - Lokki, T., Pätynen, J., Kuusinen, A., Vertanen, H., & Tervo, S. (2011). Concert hall acoustics assessment with individually elicited attributes. The Journal of the Acoustical Society of America, 130(2), 835-849.
 
 - Bernier, N., & Gillet, F. (2012). Structural relationships among vegetation, soil fauna and humus form in a subalpine forest ecosystem: a Hierarchical Multiple Factor Analysis (HMFA). Pedobiologia, 55(6), 321-334.
 
-- Christophe, B. C. (2012). PCA: The Basic Building Block of Chemometrics. Analytical Chemistry, 2-10.
-
 - Paravisini, L., Soldavini, A., Peterson, J., Simons, C. T., & Peterson, D. G. (2019). Impact of bitter tastant sub-qualities on retronasal coffee aroma perception. Plos one, 14(10), e0223280.
 
 - Lê, S. (2021). Analyzing multitrait-multimethod data with exploratory multivariate analysis...the French way: A multiple factor analysis perspective. In Advanced Multitrait-Multimethod Analyses for the Behavioral and Social Sciences (pp. 184-209). Routledge.
 
-- Coppi, R. (1994). An introduction to multiway data and their analysis. Computational statistics & data analysis, 18(1), 3-13.
-
-- Giordani, P., Kiers, H. A., & Del Ferraro, M. A. (2014). Three-way component analysis using the R package ThreeWay. Journal of Statistical Software, 57(1), 1-23.
-
-- Kiers, H. A., & Mechelen, I. V. (2001). Three-way component analysis: Principles and illustrative application. Psychological methods, 6(1), 84.
-
 - Lorho, G., Vase Legarth, S., & Zacharov, N. (2010, June). Perceptual validation of binaural recordings for mobile multimedia loudspeaker evaluations. In Audio Engineering Society Conference: 38th International Conference: Sound Quality Evaluation. Audio Engineering Society.
 
-- Grimm, K. J., Pianta, R. C., & Konold, T. (2009). Longitudinal multitrait-multimethod models for developmental research. Multivariate Behavioral Research, 44(2), 233-258.
+- Franco, J., Crossa, J., & Desphande, S. (2010). Hierarchical multiple‐factor analysis for classifying genotypes based on phenotypic and genetic data. Crop Science, 50(1), 105-117.
+
+
+A list of papers that will help you understand the notion of structure on the data (blocks, ways, etc.):
 
 - Geladi, P. (1989). Analysis of multi-way (multi-mode) data. Chemometrics and intelligent laboratory systems, 7(1-2), 11-30.
 
-- Franco, J., Crossa, J., & Desphande, S. (2010). Hierarchical multiple‐factor analysis for classifying genotypes based on phenotypic and genetic data. Crop Science, 50(1), 105-117.
+- St, L. (1989). Aspects of the analysis of three-way data. Chemometrics and Intelligent laboratory systems, 7(1-2), 95-100.
+
+- Coppi, R. (1994). An introduction to multiway data and their analysis. Computational statistics & data analysis, 18(1), 3-13.
+
+- Kiers, H. A., & Mechelen, I. V. (2001). Three-way component analysis: Principles and illustrative application. Psychological methods, 6(1), 84.
+
+- Grimm, K. J., Pianta, R. C., & Konold, T. (2009). Longitudinal multitrait-multimethod models for developmental research. Multivariate Behavioral Research, 44(2), 233-258.
+
+- Christophe, B. C. (2012). PCA: The Basic Building Block of Chemometrics. Analytical Chemistry, 2-10.
+
+- Giordani, P., Kiers, H. A., & Del Ferraro, M. A. (2014). Three-way component analysis using the R package ThreeWay. Journal of Statistical Software, 57(1), 1-23.
+
 
 # Statistical analysis of perception, sensory and consumer data
 
 In this module I will try to make you think about the notion of measure, the notion of profile, and the notion of typology. These notions will be tackled with quantitative and qualitative variables. Analyses will be performed using PCA, CA, and MCA, with the FactoMineR package.
 
-Please have a look at the [course website](https://sebastien-le.github.io/PerceptionDataAnalysis/).
+Please have a look at the [course website](https://sebastien-le.github.io/PerceptionDataAnalysis/){target="_blank"}.
 
 
 
