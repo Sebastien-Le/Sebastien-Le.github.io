@@ -55,7 +55,7 @@ A list of papers you should read for a better understanding of HMFA:
 
 In this module I will try to make you think about the notion of measure, the notion of profile, and the notion of typology. These notions will be tackled with quantitative and qualitative variables. Analyses will be performed using PCA, CA, and MCA, with the FactoMineR package.
 
-Please have a look at the [course website](https://sebastien-le.github.io/PerceptionDataModule/).
+Please have a look at the [course website](https://sebastien-le.github.io/PerceptionDataAnalysis/).
 
 
 
