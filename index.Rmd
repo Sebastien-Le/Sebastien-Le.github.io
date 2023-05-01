@@ -15,7 +15,7 @@ Sébastien Lê <br>
 Associate Professor <br>
 
 Statistics and Computer Science Department <br>
-Univ Rennes, [L'Institut Agro Rennes-Angers](https://www.institut-agro-rennes-angers.fr), CNRS, IRMAR - UMR 6625, F-35000 Rennes, France
+Univ Rennes, [l'Institut Agro Rennes-Angers](https://www.institut-agro-rennes-angers.fr), CNRS, IRMAR - UMR 6625, F-35000 Rennes, France
 
 Phone: +33 (0)2 23 48 58 81 <br>
 email: sebastien.le@agrocampus-ouest.fr 
