@@ -13,6 +13,9 @@ As written previously, the main purpose of this website is to share open educati
 
 -   [A european case study on salmon](https://sebastien-le.github.io/salmon/)
 
+-   [A course on sensory data analysis online](https://sensorydatascience.netlify.app)
+
+
 # Other resources
 
 ### Chapters
