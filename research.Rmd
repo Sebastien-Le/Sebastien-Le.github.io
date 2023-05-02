@@ -216,6 +216,14 @@ microbiology, 9, 1787.
 
 1. Luc, A., Lê, S., & Philippe, M. (2020). Nudging consumers for relevant data using Free JAR profiling: An application to product development. Food Quality and Preference, 79, 103751.
 
+1. Von Gastrow, L., Madec, M. N., Chuat, V., Lubac, S., Morinière, C., Lê, S., ... & Valence, F. (2020). Microbial diversity associated with gwell, a traditional french mesophilic fermented milk inoculated with a natural starter. Microorganisms, 8(7), 982.
+
+1. Noël, M., Noël, Y., Lucet, N., & Lê, S. (2022). Translating non-experts’ perception for expert engineers: A first step in co-designing automotive human–machine interfaces. Food Quality and Preference, 98, 104528.
+
+1. Luc, A., Lê, S., Philippe, M., Qannari, E. M., & Vigneau, E. (2022). Free JAR experiment: Data analysis and comparison with JAR task. Food Quality and Preference, 98, 104453.
+
+1. Luc, A., Lê, S., Philippe, M., Qannari, E. M., & Vigneau, E. (2022). A machine learning approach for analyzing Free JAR data. Food Quality and Preference, 99, 104581.
+
 
 # Conferences
 
